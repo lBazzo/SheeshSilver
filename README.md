@@ -14,6 +14,7 @@ Development for this project was primarily (95%) a solo-effort that consumed alm
 - Full Johto story and Kanto postgame from HGSS, including the Kimono Girls and Eusine
 - Following Pokémon
 - Overworld background Pokémon allow you to easily see the notable encounters on each route
+- Overworld background Pokémon in cities, towns, or areas with no encounters are just for the vibes
 - Day/Night System with variable encounters 
 - Dynamic overworld palettes
 - HGSS Music
@@ -51,21 +52,12 @@ Development for this project was primarily (95%) a solo-effort that consumed alm
 - Ruins of alph back room requirements are slightly altered
 - No pokéathalon dome
 - No Battle Frontier
-- Yes Battle Tower
+- Yes Battle Tower (ported straight from emerald, not extensively tested so be careful)
 - No trades in Kanto
 
 ## Download
-### Download the .zip containing patch file in the [**Releases**](https://github.com/PokemonHnS-Development/pokemonHnS/releases) Section.
-
-**The .zip file contains 8 Files:**
-- A patch file for HnS, to be patched to Emerald.
-- High Profile Trainer Doc
-- Item Locations Doc
-- Encounter Doc
-- Evolution Methods Doc
-- Completion Doc
-- Breeding Methods Doc
-- ReadME file
+### Download the .ups patch file in the (Releases) Section.
+- pokemonHnS_v1.0.ups  (to be patched onto a Pokemon - Emerald Version (U) ROM)
 
 ## Patching your ROM
 Use [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/legacy/) to patch the files.
