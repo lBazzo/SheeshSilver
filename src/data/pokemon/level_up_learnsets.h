@@ -181,6 +181,7 @@ static const u16 sMetapodLevelUpLearnset[] = {
 };
 
 static const u16 sButterfreeLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_GUST),
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE(10, MOVE_CONFUSION),
@@ -189,7 +190,7 @@ static const u16 sButterfreeLevelUpLearnset[] = {
     LEVEL_UP_MOVE(15, MOVE_SLEEP_POWDER),
     LEVEL_UP_MOVE(18, MOVE_SUPERSONIC),
     LEVEL_UP_MOVE(23, MOVE_WHIRLWIND),
-    LEVEL_UP_MOVE(28, MOVE_GUST),
+    LEVEL_UP_MOVE(28, MOVE_WING_ATTACK),
     LEVEL_UP_MOVE(31, MOVE_BUG_BUZZ),
     LEVEL_UP_MOVE(34, MOVE_PSYBEAM),
     LEVEL_UP_MOVE(40, MOVE_SAFEGUARD),
