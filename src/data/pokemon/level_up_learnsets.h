@@ -497,6 +497,7 @@ static const u16 sNidorinaLevelUpLearnset[] = {
 };
 
 static const u16 sNidoqueenLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_MUDDY_WATER),
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_KICK),
@@ -551,6 +552,7 @@ static const u16 sNidorinoLevelUpLearnset[] = {
 };
 
 static const u16 sNidokingLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_SLUDGE_BOMB),
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_KICK),
