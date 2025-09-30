@@ -407,7 +407,7 @@ static const u16 sPikachuLevelUpLearnset[] = {
 };
 
 static const u16 sRaichuLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 1, MOVE_THUNDER_SHOCK),
+    LEVEL_UP_MOVE( 0, MOVE_THUNDERBOLT),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_SPARK),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
