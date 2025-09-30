@@ -1799,6 +1799,7 @@ static const u16 sExeggcuteLevelUpLearnset[] = {
 };
 
 static const u16 sExeggutorLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_RAZOR_LEAF),
     LEVEL_UP_MOVE( 1, MOVE_BARRAGE),
     LEVEL_UP_MOVE( 1, MOVE_PSYCHO_CUT),
     LEVEL_UP_MOVE( 1, MOVE_REFLECT),
