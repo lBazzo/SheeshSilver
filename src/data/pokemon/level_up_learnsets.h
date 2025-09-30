@@ -1235,6 +1235,7 @@ static const u16 sWeepinbellLevelUpLearnset[] = {
 };
 
 static const u16 sVictreebelLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_SLUDGE),
     LEVEL_UP_MOVE( 1, MOVE_VINE_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_SLEEP_POWDER),
     LEVEL_UP_MOVE( 1, MOVE_SWEET_SCENT),
