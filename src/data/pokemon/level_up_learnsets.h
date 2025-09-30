@@ -2133,6 +2133,7 @@ static const u16 sStaryuLevelUpLearnset[] = {
 };
 
 static const u16 sStarmieLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_PSYBEAM),
     LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),
     LEVEL_UP_MOVE( 1, MOVE_RAPID_SPIN),
     LEVEL_UP_MOVE( 1, MOVE_RECOVER),
@@ -2144,6 +2145,7 @@ static const u16 sStarmieLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PSYCHO_CUT),
     LEVEL_UP_MOVE( 1, MOVE_COSMIC_POWER),
     LEVEL_UP_MOVE(33, MOVE_CONFUSE_RAY),
+    LEVEL_UP_MOVE(46, MOVE_HYDRO_PUMP),
     LEVEL_UP_END
 };
 
