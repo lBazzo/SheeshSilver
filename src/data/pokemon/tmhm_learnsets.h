@@ -5201,6 +5201,7 @@ const union {
         .FLASH = TRUE,
         .ROCK_SMASH = TRUE,
         .WHIRLPOOL = TRUE,
+        .WATERFALL = TRUE,
     } },
 
     [SPECIES_MISDREAVUS] = { .learnset = {
