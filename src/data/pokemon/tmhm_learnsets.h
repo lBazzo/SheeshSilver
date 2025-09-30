@@ -1060,7 +1060,6 @@ const union {
         .THIEF = TRUE,
         .STEEL_WING = TRUE,
         .SNATCH = TRUE,
-        .POISON_JAB = TRUE,
     } },
 
     [SPECIES_ODDISH] = { .learnset = {
@@ -4427,7 +4426,6 @@ const union {
         .THIEF = TRUE,
         .STEEL_WING = TRUE,
         .SNATCH = TRUE,
-        .POISON_JAB = TRUE,
         .FLY = TRUE,
     } },
 
