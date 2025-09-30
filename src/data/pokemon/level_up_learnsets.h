@@ -7527,7 +7527,7 @@ static const u16 sMagmortarLevelUpLearnset[] = {
 };
 
 static const u16 sMagnezoneLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_IRON_CLAW),
+    LEVEL_UP_MOVE( 0, MOVE_METAL_CLAW),
     LEVEL_UP_MOVE( 1, MOVE_METAL_SOUND),
     LEVEL_UP_MOVE( 1, MOVE_MIRROR_COAT),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
