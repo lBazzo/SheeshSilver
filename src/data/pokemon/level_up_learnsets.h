@@ -770,6 +770,7 @@ static const u16 sGloomLevelUpLearnset[] = {
 };
 
 static const u16 sVileplumeLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_GIGA_DRAIN),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_GROWTH),
     LEVEL_UP_MOVE( 1, MOVE_POISON_POWDER),
@@ -3253,6 +3254,7 @@ static const u16 sAmpharosLevelUpLearnset[] = {
 };
 
 static const u16 sBellossomLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_GIGA_DRAIN),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_GROWTH),
     LEVEL_UP_MOVE( 1, MOVE_LEAF_BLADE),
