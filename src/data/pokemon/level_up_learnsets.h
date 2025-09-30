@@ -3134,6 +3134,7 @@ static const u16 sTogepiLevelUpLearnset[] = {
 };
 
 static const u16 sTogeticLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_GUST),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
     LEVEL_UP_MOVE( 1, MOVE_AIR_CUTTER),
@@ -3146,6 +3147,7 @@ static const u16 sTogeticLevelUpLearnset[] = {
     LEVEL_UP_MOVE(24, MOVE_GUST),
     LEVEL_UP_MOVE(26, MOVE_FOLLOW_ME),
     LEVEL_UP_MOVE(30, MOVE_HYPER_VOICE),
+    LEVEL_UP_MOVE(30, MOVE_BATON_PASS),
     LEVEL_UP_MOVE(31, MOVE_WISH),
     LEVEL_UP_MOVE(36, MOVE_SAFEGUARD),
     LEVEL_UP_MOVE(41, MOVE_DOUBLE_EDGE),
@@ -7793,6 +7795,7 @@ static const u16 sTangrowthLevelUpLearnset[] = {
 };
 
 static const u16 sTogekissLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_SKY_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
     LEVEL_UP_MOVE( 1, MOVE_AIR_CUTTER),
@@ -7810,9 +7813,11 @@ static const u16 sTogekissLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SAFEGUARD),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_EDGE),
     LEVEL_UP_MOVE( 1, MOVE_EXTREME_SPEED),
-    LEVEL_UP_MOVE( 1, MOVE_SKY_ATTACK),
-    LEVEL_UP_MOVE( 36, MOVE_AIR_SLASH),
-    LEVEL_UP_MOVE( 60, MOVE_MOONBLAST),
+    LEVEL_UP_MOVE( 1, MOVE_TRI_ATTACK),
+    LEVEL_UP_MOVE(24, MOVE_GUST),
+    LEVEL_UP_MOVE(30, MOVE_BATON_PASS),
+    LEVEL_UP_MOVE(36, MOVE_AIR_SLASH),
+    LEVEL_UP_MOVE(50, MOVE_MOONBLAST),
     LEVEL_UP_END
 };
 
