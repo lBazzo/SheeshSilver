@@ -388,6 +388,7 @@ static const u16 sArbokLevelUpLearnset[] = {
 };
 
 static const u16 sPikachuLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_SHOCK_WAVE),
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_SHOCK),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
