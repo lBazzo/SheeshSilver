@@ -6567,6 +6567,7 @@ const union {
         .SECRET_POWER = TRUE,
         .REST = TRUE,
         .SKILL_SWAP = TRUE,
+        .BULLET_SEED = TRUE,
         .CUT = TRUE,
         .FLASH = TRUE,
     } },
