@@ -7502,6 +7502,7 @@ static const u16 sLickilickyLevelUpLearnset[] = {
 };
 
 static const u16 sMagmortarLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_FIRE_PUNCH),
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_SMOG),
