@@ -7336,6 +7336,7 @@ static const u16 sDusknoirLevelUpLearnset[] = {
 };
 
 static const u16 sElectivireLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_THUNDER_PUNCH),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_CHARGE),
