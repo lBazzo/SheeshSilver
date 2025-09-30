@@ -640,6 +640,7 @@ static const u16 sVulpixLevelUpLearnset[] = {
 };
 
 static const u16 sNinetalesLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_FLAME_WHEEL),
     LEVEL_UP_MOVE( 1, MOVE_EMBER),
     LEVEL_UP_MOVE( 1, MOVE_EXTRASENSORY),
     LEVEL_UP_MOVE( 1, MOVE_DISABLE),
@@ -655,6 +656,7 @@ static const u16 sNinetalesLevelUpLearnset[] = {
 };
 
 static const u16 sJigglypuffLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_DOUBLE_SLAP),
     LEVEL_UP_MOVE( 1, MOVE_SING),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
     LEVEL_UP_MOVE( 1, MOVE_SWEET_KISS),
@@ -677,6 +679,7 @@ static const u16 sJigglypuffLevelUpLearnset[] = {
 };
 
 static const u16 sWigglytuffLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_PLAY_ROUGH),
     LEVEL_UP_MOVE( 1, MOVE_SING),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
     LEVEL_UP_MOVE( 1, MOVE_SWEET_KISS),
@@ -692,6 +695,7 @@ static const u16 sWigglytuffLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BODY_SLAM),
     LEVEL_UP_MOVE( 1, MOVE_MIMIC),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_BLAST),
+    LEVEL_UP_MOVE( 1, MOVE_ROLLOUT),
     LEVEL_UP_END
 };
 
