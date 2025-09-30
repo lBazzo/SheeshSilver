@@ -1026,6 +1026,7 @@ static const u16 sGrowlitheLevelUpLearnset[] = {
 };
 
 static const u16 sArcanineLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_BLAZE_KICK),
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_OUTRAGE),
     LEVEL_UP_MOVE( 1, MOVE_CRUNCH),
