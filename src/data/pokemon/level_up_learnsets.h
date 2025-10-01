@@ -7841,6 +7841,7 @@ static const u16 sSylveonLevelUpLearnset[] = {
 };
 
 static const u16 sTangrowthLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_MEGA_DRAIN),
     LEVEL_UP_MOVE( 1, MOVE_INGRAIN),
     LEVEL_UP_MOVE( 1, MOVE_CONSTRICT),
     LEVEL_UP_MOVE( 5, MOVE_SLEEP_POWDER),
@@ -7854,7 +7855,7 @@ static const u16 sTangrowthLevelUpLearnset[] = {
     LEVEL_UP_MOVE(36, MOVE_KNOCK_OFF),
     LEVEL_UP_MOVE(42, MOVE_FOCUS_BLAST),
     LEVEL_UP_MOVE(43, MOVE_SLAM),
-    LEVEL_UP_MOVE(45, MOVE_MEGA_DRAIN),
+    LEVEL_UP_MOVE(45, MOVE_GIGA_DRAIN),
     LEVEL_UP_MOVE(47, MOVE_TICKLE),
     LEVEL_UP_MOVE(57, MOVE_BLOCK),
     LEVEL_UP_END
