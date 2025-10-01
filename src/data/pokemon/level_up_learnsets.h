@@ -7471,6 +7471,7 @@ static const u16 sHonchkrowLevelUpLearnset[] = {
 };
 
 static const u16 sLeafeonLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_NEEDLE_ARM),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_HELPING_HAND),
