@@ -2548,6 +2548,7 @@ static const u16 sAerodactylLevelUpLearnset[] = {
 };
 
 static const u16 sSnorlaxLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_STOMP),
     LEVEL_UP_MOVE( 1, MOVE_FALSE_SWIPE),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_BITE),
@@ -7179,6 +7180,7 @@ static const u16 sDeoxysLevelUpLearnset[] = {
 };
 
 static const u16 sChimechoLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 1, MOVE_WRAP),
     LEVEL_UP_MOVE( 6, MOVE_GROWL),
     LEVEL_UP_MOVE( 9, MOVE_ASTONISH),
