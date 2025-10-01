@@ -2357,6 +2357,7 @@ static const u16 sEeveeLevelUpLearnset[] = {
 };
 
 static const u16 sVaporeonLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_WATER_PULSE),
     LEVEL_UP_MOVE( 1, MOVE_FALSE_SWIPE),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
