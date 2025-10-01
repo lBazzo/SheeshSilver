@@ -19560,7 +19560,7 @@ static const struct TrainerMonItemCustomMoves sParty_Pryce_3[] = { //LeaderGroup
     {
     .iv = 200,
     .lvl = 38,
-    .species = SPECIES_PILOSWINE,
+    .species = SPECIES_MAMOSWINE,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_HEADBUTT, MOVE_EARTHQUAKE, MOVE_ROCK_SMASH, MOVE_BLIZZARD}
     },
@@ -19709,7 +19709,7 @@ static const struct TrainerMonItemCustomMoves sParty_Jasmine_3[] = { //LeaderGro
     {
     .iv = 200,
     .lvl = 37,
-    .species = SPECIES_MAGNETON,
+    .species = SPECIES_MAGNEZONE,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_RAIN_DANCE, MOVE_THUNDER}
     },
@@ -19865,9 +19865,9 @@ static const struct TrainerMonItemCustomMoves sParty_Chuck_3[] = { //LeaderGroup
     {
     .iv = 200,
     .lvl = 37,
-    .species = SPECIES_PRIMEAPE,
+    .species = SPECIES_ANNIHILAPE,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_DYNAMIC_PUNCH, MOVE_KARATE_CHOP, MOVE_ROCK_SLIDE, MOVE_RAGE}
+    .moves = {MOVE_SHADOW_PUNCH, MOVE_BRICK_BREAK, MOVE_ICE_PUNCH, MOVE_RAGE}
     },
     {
     .iv = 200,
@@ -19904,9 +19904,9 @@ static const struct TrainerMonItemCustomMoves sParty_Chuck2[] = { //LeaderGroup
     {
     .iv = 200,
     .lvl = 64,
-    .species = SPECIES_PRIMEAPE,
+    .species = SPECIES_ANNIHILAPE,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_CROSS_CHOP, MOVE_THUNDER_PUNCH, MOVE_ROCK_SLIDE, MOVE_MEDITATE}
+    .moves = {MOVE_CROSS_CHOP, MOVE_SHADOW_PUNCH, MOVE_ROCK_SLIDE, MOVE_MEDITATE}
     },
     {
     .iv = 200,
@@ -19957,9 +19957,9 @@ static const struct TrainerMonItemCustomMoves sParty_Clair[] = { //LeaderGroup
     {
     .iv = 200,
     .lvl = 44,
-    .species = SPECIES_DRAGONAIR,
+    .species = SPECIES_DUDUNSPARCE,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_DRAGON_BREATH}
+    .moves = {MOVE_GLARE, MOVE_ANCIENT_POWER, MOVE_REST, MOVE_POISON_JAB}
     },
     {
     .iv = 200,
@@ -19989,9 +19989,9 @@ static const struct TrainerMonItemCustomMoves sParty_Clair2[] = { //LeaderGroup
     {
     .iv = 200,
     .lvl = 63,
-    .species = SPECIES_CHARIZARD,
+    .species = SPECIES_DUDUNSPARCE,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_FLY, MOVE_FLAMETHROWER, MOVE_STEEL_WING, MOVE_DOUBLE_TEAM}
+    .moves = {MOVE_REST, MOVE_GLARE, MOVE_POISON_JAB, MOVE_SKULL_BASH}
     },
     {
     .iv = 200,
