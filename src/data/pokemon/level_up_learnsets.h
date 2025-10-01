@@ -7204,6 +7204,7 @@ static const u16 sChimechoLevelUpLearnset[] = {
 };
 
 static const u16 sAmbipomLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_VICE_GRIP),
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_SAND_ATTACK),
