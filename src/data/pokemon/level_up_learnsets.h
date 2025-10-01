@@ -5407,6 +5407,7 @@ static const u16 sSkittyLevelUpLearnset[] = {
 };
 
 static const u16 sDelcattyLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_HEADBUTT),
     LEVEL_UP_MOVE( 1, MOVE_TICKLE),
     LEVEL_UP_MOVE( 1, MOVE_YAWN),
     LEVEL_UP_MOVE( 1, MOVE_ATTRACT),
