@@ -7613,6 +7613,7 @@ static const u16 sMantykeLevelUpLearnset[] = {
 };
 
 static const u16 sMismagiusLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_NIGHT_SHADE),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_POWER_GEM),
     LEVEL_UP_MOVE( 1, MOVE_PSYWAVE),
