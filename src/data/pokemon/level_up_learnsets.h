@@ -4209,6 +4209,7 @@ static const u16 sDonphanLevelUpLearnset[] = {
 };
 
 static const u16 sPorygon2LevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_HEADBUTT),
     LEVEL_UP_MOVE( 1, MOVE_CONVERSION_2),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_CONVERSION),
@@ -7657,6 +7658,7 @@ static const u16 sMunchlaxLevelUpLearnset[] = {
 };
 
 static const u16 sPorygonZLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_HORN_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_CONVERSION_2),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_CONVERSION),
