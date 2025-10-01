@@ -6506,6 +6506,7 @@ static const u16 sClamperlLevelUpLearnset[] = {
 };
 
 static const u16 sHuntailLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_WATER_PULSE),
     LEVEL_UP_MOVE( 1, MOVE_WHIRLPOOL),
     LEVEL_UP_MOVE( 8, MOVE_BITE),
     LEVEL_UP_MOVE(11, MOVE_FAINT_ATTACK),
@@ -6519,6 +6520,7 @@ static const u16 sHuntailLevelUpLearnset[] = {
 };
 
 static const u16 sGorebyssLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_BUBBLE_BEAM),
     LEVEL_UP_MOVE( 1, MOVE_WHIRLPOOL),
     LEVEL_UP_MOVE( 8, MOVE_CONFUSION),
     LEVEL_UP_MOVE(15, MOVE_AGILITY),
@@ -7333,6 +7335,7 @@ static const u16 sDeoxysSLevelUpLearnset[] = {
 };
 
 static const u16 sDusknoirLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_SHADOW_BALL),
     LEVEL_UP_MOVE( 1, MOVE_BIND),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_FIRE_PUNCH),
