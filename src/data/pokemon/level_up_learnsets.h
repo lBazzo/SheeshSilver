@@ -3285,6 +3285,7 @@ static const u16 sBellossomLevelUpLearnset[] = {
 };
 
 static const u16 sMarillLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_WATER_GUN),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 1, MOVE_HELPING_HAND),
