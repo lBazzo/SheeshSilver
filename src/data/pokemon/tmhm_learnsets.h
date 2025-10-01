@@ -5289,6 +5289,7 @@ const union {
         .ATTRACT = TRUE,
         .STRENGTH = TRUE,
         .ROCK_SMASH = TRUE,
+        .BULLET_SEED = TRUE,
     } },
 
     [SPECIES_FORRETRESS] = { .learnset = {
