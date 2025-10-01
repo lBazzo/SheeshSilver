@@ -4151,6 +4151,7 @@ static const u16 sHoundoomLevelUpLearnset[] = {
 };
 
 static const u16 sKingdraLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_DRAGON_BREATH),
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 1, MOVE_SMOKESCREEN),
     LEVEL_UP_MOVE( 1, MOVE_YAWN),
