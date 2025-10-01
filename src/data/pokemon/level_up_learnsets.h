@@ -3332,6 +3332,7 @@ static const u16 sAzumarillLevelUpLearnset[] = {
 };
 
 static const u16 sSudowoodoLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_MUD_SHOT),
     LEVEL_UP_MOVE( 1, MOVE_ROCK_THROW),
     LEVEL_UP_MOVE( 1, MOVE_MIMIC),
     LEVEL_UP_MOVE( 9, MOVE_FLAIL),
@@ -4078,6 +4079,7 @@ static const u16 sDelibirdLevelUpLearnset[] = {
 };
 
 static const u16 sMantineLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_WING_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_PSYBEAM),
     LEVEL_UP_MOVE( 1, MOVE_SIGNAL_BEAM),
