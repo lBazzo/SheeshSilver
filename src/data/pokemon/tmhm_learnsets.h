@@ -5892,6 +5892,7 @@ const union {
         .SURF = TRUE,
         .WATERFALL = TRUE,
         .WHIRLPOOL = TRUE,
+        .FLY = TRUE,
     } },
 
     [SPECIES_SKARMORY] = { .learnset = {
