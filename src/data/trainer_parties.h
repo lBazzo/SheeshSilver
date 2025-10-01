@@ -19976,8 +19976,8 @@ static const struct TrainerMonItemCustomMoves sParty_Clair2[] = { //LeaderGroup
     .iv = 200,
     .lvl = 64,
     .species = SPECIES_DRAGONAIR,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_DRAGON_BREATH}
+    .heldItem = ITEM_METAL_COAT,
+    .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_IRON_TAIL}
     },
     {
     .iv = 200,
@@ -21748,8 +21748,8 @@ static const struct TrainerMonNoItemCustomMoves sParty_Archer_2[] = { //RocketAd
     {
     .iv = 255,
     .lvl = 39,
-    .species = SPECIES_WEEZING,
-    .moves = {MOVE_SELF_DESTRUCT, MOVE_SMOG, MOVE_SMOKESCREEN, MOVE_SLUDGE_BOMB}
+    .species = SPECIES_PORYGON_Z,
+    .moves = {MOVE_TRI_ATTACK, MOVE_ZAP_CANNON, MOVE_FLAMETHROWER, MOVE_ICE_BEAM}
     },
     {
     .iv = 255,
@@ -21909,7 +21909,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ariana2[] = { //RocketAdm
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_MURKROW,
+    .species = SPECIES_HONCHKROW,
     .moves = {MOVE_PURSUIT, MOVE_TOXIC, MOVE_FAINT_ATTACK, MOVE_FLY}
     },
 };
