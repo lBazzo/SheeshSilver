@@ -3457,6 +3457,7 @@ static const u16 sSunkernLevelUpLearnset[] = {
 };
 
 static const u16 sSunfloraLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_MEGA_DRAIN),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_SYNTHESIS),
