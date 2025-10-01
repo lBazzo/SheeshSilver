@@ -3555,6 +3555,7 @@ static const u16 sEspeonLevelUpLearnset[] = {
 };
 
 static const u16 sUmbreonLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_THIEF),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_SWIFT),
