@@ -7986,6 +7986,7 @@ static const u16 sFarigirafLevelUpLearnset[] = {
 };
 
 static const u16 sDudunsparceLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_BODY_SLAM),
     LEVEL_UP_MOVE( 1, MOVE_RAGE),
     LEVEL_UP_MOVE( 1, MOVE_POISON_JAB),
     LEVEL_UP_MOVE( 6, MOVE_DEFENSE_CURL),
@@ -8010,6 +8011,7 @@ static const u16 sDudunsparceLevelUpLearnset[] = {
 };
 
 static const u16 sWyrdeerLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_PSYBEAM),
     LEVEL_UP_MOVE( 1, MOVE_CONFUSE_RAY),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_CALM_MIND),
