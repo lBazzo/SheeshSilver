@@ -818,8 +818,8 @@ static const u8 sChoiceBandDesc[] = _(
 
 static const u8 sKingsRockDesc[] = _(
     "Makes foe flinch.\n"
-    "Evolves SLOWPOKE,\n"
-    "POLIWHIRL, RHYDON.");
+    "Evolves SLOWPOKE\n"
+    "and POLIWHIRL.");
 
 static const u8 sSilverPowderDesc[] = _(
     "A hold item that\n"
