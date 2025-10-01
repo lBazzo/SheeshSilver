@@ -7682,6 +7682,7 @@ static const u16 sPorygonZLevelUpLearnset[] = {
 };
 
 static const u16 sProbopassLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_METAL_CLAW),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),
     LEVEL_UP_MOVE( 1, MOVE_BLOCK),
