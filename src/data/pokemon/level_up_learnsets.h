@@ -7770,6 +7770,7 @@ static const u16 sRegielekiLevelUpLearnset[] = {
 };
 
 static const u16 sRhyperiorLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_ROCK_SLIDE),
     LEVEL_UP_MOVE( 1, MOVE_HORN_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_STOMP),
