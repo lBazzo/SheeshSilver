@@ -7403,6 +7403,7 @@ static const u16 sGalladeLevelUpLearnset[] = {
 };
 
 static const u16 sGlaceonLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_ICY_WIND),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_HELPING_HAND),
