@@ -3819,6 +3819,7 @@ static const u16 sQwilfishLevelUpLearnset[] = {
 };
 
 static const u16 sScizorLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_METAL_CLAW),
     LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_AIR_SLASH),
     LEVEL_UP_MOVE( 1, MOVE_PSYCHO_CUT),
