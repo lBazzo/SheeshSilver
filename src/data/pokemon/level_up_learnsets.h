@@ -7577,6 +7577,7 @@ static const u16 sMagnezoneLevelUpLearnset[] = {
 };
 
 static const u16 sMamoswineLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_AURORA_BEAM),
     LEVEL_UP_MOVE( 1, MOVE_HORN_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_ODOR_SLEUTH),
     LEVEL_UP_MOVE( 1, MOVE_FLAIL),
@@ -7912,6 +7913,7 @@ static const u16 sWeavileLevelUpLearnset[] = {
 };
 
 static const u16 sYanmegaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_WING_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_BUG_BUZZ),
     LEVEL_UP_MOVE( 1, MOVE_FORESIGHT),
