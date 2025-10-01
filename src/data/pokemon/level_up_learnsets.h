@@ -4357,6 +4357,7 @@ static const u16 sMiltankLevelUpLearnset[] = {
 };
 
 static const u16 sBlisseyLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_FALSE_SWIPE),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_COVET),
