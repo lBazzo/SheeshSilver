@@ -5102,6 +5102,7 @@ static const u16 sNuzleafLevelUpLearnset[] = {
 };
 
 static const u16 sShiftryLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_DARK_PULSE),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_WHIRLWIND),
