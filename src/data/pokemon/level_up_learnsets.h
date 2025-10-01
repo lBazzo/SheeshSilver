@@ -5043,6 +5043,8 @@ static const u16 sLombreLevelUpLearnset[] = {
 };
 
 static const u16 sLudicoloLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_MEGA_DRAIN),
+    LEVEL_UP_MOVE( 0, MOVE_BUBBLE_BEAM),
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_BLAST),
     LEVEL_UP_MOVE( 1, MOVE_FLAIL),
