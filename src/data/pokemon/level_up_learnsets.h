@@ -6303,6 +6303,7 @@ static const u16 sDusclopsLevelUpLearnset[] = {
 };
 
 static const u16 sRoseliaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_MEGA_DRAIN),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 5, MOVE_GROWTH),
     LEVEL_UP_MOVE( 9, MOVE_POISON_STING),
@@ -7785,6 +7786,7 @@ static const u16 sRhyperiorLevelUpLearnset[] = {
 };
 
 static const u16 sRoseradeLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_GIGA_DRAIN),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_GROWTH),
     LEVEL_UP_MOVE( 1, MOVE_POISON_STING),
