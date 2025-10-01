@@ -3597,6 +3597,7 @@ static const u16 sMurkrowLevelUpLearnset[] = {
 };
 
 static const u16 sSlowkingLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_PSYBEAM),
     LEVEL_UP_MOVE( 1, MOVE_CURSE),
     LEVEL_UP_MOVE( 1, MOVE_POWER_GEM),
     LEVEL_UP_MOVE( 1, MOVE_YAWN),
