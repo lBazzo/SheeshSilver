@@ -2062,6 +2062,7 @@ static const u16 sKangaskhanLevelUpLearnset[] = {
 static const u16 sHorseaLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 8, MOVE_SMOKESCREEN),
+    LEVEL_UP_MOVE(12, MOVE_TACKLE),
     LEVEL_UP_MOVE(15, MOVE_LEER),
     LEVEL_UP_MOVE(16, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE(20, MOVE_DRAGON_BREATH),
