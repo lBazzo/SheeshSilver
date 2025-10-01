@@ -1979,6 +1979,7 @@ static const u16 sRhydonLevelUpLearnset[] = {
 };
 
 static const u16 sChanseyLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_DOUBLE_SLAP),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_CHARM),
@@ -7510,6 +7511,7 @@ static const u16 sLeafeonLevelUpLearnset[] = {
 };
 
 static const u16 sLickilickyLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_STOMP),
     LEVEL_UP_MOVE( 1, MOVE_FALSE_SWIPE),
     LEVEL_UP_MOVE( 1, MOVE_LICK),
     LEVEL_UP_MOVE( 5, MOVE_SUPERSONIC),
