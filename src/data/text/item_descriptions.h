@@ -91,13 +91,13 @@ static const u8 sMoonBallDesc[] = _(
 
 static const u8 sLevelBallDesc[] = _(
     "Works well on\n"
-    "ELECTRIC, FIGHTING\n"
-    "and FIRE POKéMON.");
+    "NORMAL, FLYING\n"
+    "and ICE POKéMON.");
 
 static const u8 sFastBallDesc[] = _(
     "Works well on\n"
-    "NORMAL, FLYING\n"
-    "and ICE POKéMON.");
+    "ELECTRIC, FIGHTING\n"
+    "and FIRE POKéMON.");
 
 static const u8 sGSBallDesc[] = _(
     "A mysterious ball.\n"
