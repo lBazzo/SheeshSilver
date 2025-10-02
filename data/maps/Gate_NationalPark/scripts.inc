@@ -2,13 +2,13 @@ Gate_NationalPark_MapScripts::
 	.byte 0
 
 Gate_NationalPark_EventScript_Attendant::
-	lock
+	lockall
 	faceplayer
 	goto_if_set FLAG_DAILY_BUG_CONTEST_COMPLETED, Gate_NationalPark_EventScript_AttendantAlreadyPlayed
 	msgbox Route35NationalParkGate_Text_OfficerAskToParticipate, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, TRUE, Gate_NationalPark_EventScript_AttendantStart
 	msgbox Route35NationalParkGate_Text_TakePartInFuture, MSGBOX_DEFAULT
-	release
+	releaseall
 	end
 
 Gate_NationalPark_EventScript_AttendantStart::
@@ -38,7 +38,7 @@ Gate_NationalPark_EventScript_AttendantStart::
 	special EnterBugContestMode
 	setvar VAR_BUG_CONTEST_STATE, 1
 	warp MAP_NATIONAL_PARK_BUG_CONTEST, 1
-	release
+	waitstate
 	end
 
 Gate_NationalPark_EventScript_OnlyOneMon::
@@ -56,7 +56,7 @@ Gate_NationalPark_EventScript_OnlyOneMon::
 	special EnterBugContestMode
 	setvar VAR_BUG_CONTEST_STATE, 1
 	warp MAP_NATIONAL_PARK_BUG_CONTEST, 1
-	release
+	waitstate
 	end
 
 Gate_NationalPark_EventScript_AttendantEnterTop::
@@ -113,13 +113,13 @@ Gate_NationalPark_Movement_Player_EnterParkBot:
 	step_end
 
 Gate_NationalPark_EventScript_BAttendant::
-	lock
+	lockall
 	faceplayer
 	goto_if_set FLAG_DAILY_BUG_CONTEST_COMPLETED, Gate_NationalPark_EventScript_AttendantAlreadyPlayed
 	msgbox Route35NationalParkGate_Text_OfficerAskToParticipate, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, TRUE, Gate_NationalPark_EventScript_BAttendantStart
 	msgbox Route35NationalParkGate_Text_TakePartInFuture, MSGBOX_DEFAULT
-	release
+	releaseall
 	end
 
 Gate_NationalPark_EventScript_BAttendantStart::
@@ -149,6 +149,7 @@ Gate_NationalPark_EventScript_BAttendantStart::
 	setflag FLAG_HIDE_BUG_CONTEST_ATTENDANT_SIDE
 	setvar VAR_BUG_CONTEST_STATE, 5
 	warp MAP_NATIONAL_PARK_BUG_CONTEST, 40, 19
+	waitstate
 	end
 
 Gate_NationalPark_EventScript_OnlyOneMonB::
@@ -166,6 +167,7 @@ Gate_NationalPark_EventScript_OnlyOneMonB::
 	setflag FLAG_HIDE_BUG_CONTEST_ATTENDANT_SIDE
 	setvar VAR_BUG_CONTEST_STATE, 5
 	warp MAP_NATIONAL_PARK_BUG_CONTEST, 40, 19
+	waitstate
 	end
 
 Gate_NationalPark_EventScript_AttendantBEnterTop::
