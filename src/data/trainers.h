@@ -5950,7 +5950,7 @@ const struct Trainer gTrainers[] = {
         .items = {ITEM_POTION, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = NO_ITEM_DEFAULT_MOVES(sParty_Rival_Totodile2),
+        .party = ITEM_CUSTOM_MOVES(sParty_Rival_Totodile2),
     },
 
 

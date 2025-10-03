@@ -21323,21 +21323,24 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rival_Totodile1[] = { //
     .species = SPECIES_TOTODILE,
     },
 };
-static const struct TrainerMonNoItemDefaultMoves sParty_Rival_Totodile2[] = { //RivalGroup
+static const struct TrainerMonNoItemCustomMoves sParty_Rival_Totodile2[] = { //RivalGroup
     {
     .iv = 0,
     .lvl = 15,
     .species = SPECIES_ZUBAT,
+    .moves = {MOVE_ABSORB, MOVE_SUPERSONIC, MOVE_POISON_STING, MOVE_ASTONISH},
     },
     {
     .iv = 0,
     .lvl = 16,
     .species = SPECIES_LARVITAR,
+    .moves = {MOVE_BITE, MOVE_ROCK_THROW, MOVE_SCREECH, MOVE_SANDSTORM,},
     },
     {
     .iv = 0,
     .lvl = 18,
     .species = SPECIES_CROCONAW,
+    .moves = {MOVE_SCRATCH, MOVE_RAGE, MOVE_BUBBLE_BEAM, MOVE_LEER,},
     },
 };
 static const struct TrainerMonItemCustomMoves sParty_Rival_Totodile3[] = { //RivalGroup
@@ -21345,7 +21348,7 @@ static const struct TrainerMonItemCustomMoves sParty_Rival_Totodile3[] = { //Riv
     .iv = 0,
     .lvl = 22,
     .species = SPECIES_LARVITAR,
-    .moves = {MOVE_BITE, MOVE_ROCK_THROW, MOVE_SCREECH, MOVE_NONE},
+    .moves = {MOVE_BITE, MOVE_ROCK_THROW, MOVE_SCREECH, MOVE_ROCK_SLIDE},
     },
     {
     .iv = 0,
@@ -21357,13 +21360,13 @@ static const struct TrainerMonItemCustomMoves sParty_Rival_Totodile3[] = { //Riv
     .iv = 0,
     .lvl = 22,
     .species = SPECIES_GOLBAT,
-    .moves = {MOVE_BITE, MOVE_CONFUSE_RAY, MOVE_LEECH_LIFE, MOVE_GUST},
+    .moves = {MOVE_BITE, MOVE_CONFUSE_RAY, MOVE_POISON_STING, MOVE_WING_ATTACK},
     },
     {
     .iv = 0,
     .lvl = 24,
     .species = SPECIES_CROCONAW,
-    .moves = {MOVE_BITE, MOVE_ICE_PUNCH, MOVE_WATER_GUN, MOVE_MUD_SLAP},
+    .moves = {MOVE_BITE, MOVE_ICE_PUNCH, MOVE_BUBBLE_BEAM, MOVE_MUD_SLAP},
     },
 };
 static const struct TrainerMonItemCustomMoves sParty_Rival_Totodile4[] = { //RivalGroup
