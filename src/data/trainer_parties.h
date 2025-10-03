@@ -19183,7 +19183,7 @@ static const struct TrainerMonItemCustomMoves sParty_Falkner[] = { //LeaderGroup
     },
     {
     .iv = 100,
-    .lvl = 10,
+    .lvl = 11,
     .species = SPECIES_NOCTOWL,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_TACKLE, MOVE_MUD_SLAP, MOVE_GROWL, MOVE_PECK}
