@@ -20902,12 +20902,12 @@ static const struct TrainerMonNoItemCustomMoves sParty_Rival_Chikorita2[] = { //
     .moves = {MOVE_RAZOR_LEAF, MOVE_REFLECT, MOVE_POISON_POWDER, MOVE_TACKLE,},
     }
 };
-static const struct TrainerMonItemCustomMoves sParty_Rival_Chikorita3[] = { //RivalGroup
+static const struct TrainerMonNoItemCustomMoves sParty_Rival_Chikorita3[] = { //RivalGroup
     {
     .iv = 0,
     .lvl = 22,
     .species = SPECIES_LARVITAR,
-    .moves = {MOVE_BITE, MOVE_ROCK_THROW, MOVE_SCREECH, MOVE_ROCK_SLIDE},
+    .moves = {MOVE_BITE, MOVE_ROCK_THROW, MOVE_SCREECH, MOVE_NONE},
     },
     {
     .iv = 0,
@@ -20919,7 +20919,7 @@ static const struct TrainerMonItemCustomMoves sParty_Rival_Chikorita3[] = { //Ri
     .iv = 0,
     .lvl = 22,
     .species = SPECIES_GOLBAT,
-    .moves = {MOVE_BITE, MOVE_CONFUSE_RAY, MOVE_POISON_STING, MOVE_WING_ATTACK},
+    .moves = {MOVE_BITE, MOVE_CONFUSE_RAY, MOVE_POISON_STING, MOVE_GUST},
     },
     {
     .iv = 0,
@@ -21126,12 +21126,12 @@ static const struct TrainerMonNoItemCustomMoves sParty_Rival_Cyndaquil2[] = { //
     .moves = {MOVE_LEER, MOVE_SMOKESCREEN, MOVE_EMBER, MOVE_TACKLE,},
     },
 };
-static const struct TrainerMonItemCustomMoves sParty_Rival_Cyndaquil3[] = { //RivalGroup
+static const struct TrainerMonNoItemCustomMoves sParty_Rival_Cyndaquil3[] = { //RivalGroup
     {
     .iv = 0,
     .lvl = 22,
     .species = SPECIES_LARVITAR,
-    .moves = {MOVE_BITE, MOVE_ROCK_THROW, MOVE_SCREECH, MOVE_ROCK_SLIDE},
+    .moves = {MOVE_BITE, MOVE_ROCK_THROW, MOVE_SCREECH, MOVE_NONE},
     },
     {
     .iv = 0,
@@ -21143,7 +21143,7 @@ static const struct TrainerMonItemCustomMoves sParty_Rival_Cyndaquil3[] = { //Ri
     .iv = 0,
     .lvl = 22,
     .species = SPECIES_GOLBAT,
-    .moves = {MOVE_BITE, MOVE_CONFUSE_RAY, MOVE_POISON_STING, MOVE_WING_ATTACK},
+    .moves = {MOVE_BITE, MOVE_CONFUSE_RAY, MOVE_POISON_STING, MOVE_GUST},
     },
     {
     .iv = 0,
@@ -21349,12 +21349,12 @@ static const struct TrainerMonNoItemCustomMoves sParty_Rival_Totodile2[] = { //R
     .moves = {MOVE_SCRATCH, MOVE_RAGE, MOVE_BUBBLE_BEAM, MOVE_LEER,},
     },
 };
-static const struct TrainerMonItemCustomMoves sParty_Rival_Totodile3[] = { //RivalGroup
+static const struct TrainerMonNoItemCustomMoves sParty_Rival_Totodile3[] = { //RivalGroup
     {
     .iv = 0,
     .lvl = 22,
     .species = SPECIES_LARVITAR,
-    .moves = {MOVE_BITE, MOVE_ROCK_THROW, MOVE_SCREECH, MOVE_ROCK_SLIDE},
+    .moves = {MOVE_BITE, MOVE_ROCK_THROW, MOVE_SCREECH, MOVE_NONE},
     },
     {
     .iv = 0,
@@ -21366,7 +21366,7 @@ static const struct TrainerMonItemCustomMoves sParty_Rival_Totodile3[] = { //Riv
     .iv = 0,
     .lvl = 22,
     .species = SPECIES_GOLBAT,
-    .moves = {MOVE_BITE, MOVE_CONFUSE_RAY, MOVE_POISON_STING, MOVE_WING_ATTACK},
+    .moves = {MOVE_BITE, MOVE_CONFUSE_RAY, MOVE_POISON_STING, MOVE_GUST},
     },
     {
     .iv = 0,
