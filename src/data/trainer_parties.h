@@ -21909,7 +21909,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ariana2[] = { //RocketAdm
     {
     .iv = 255,
     .lvl = 40,
-    .species = SPECIES_HONCHKROW,
+    .species = SPECIES_MURKROW,
     .moves = {MOVE_PURSUIT, MOVE_TOXIC, MOVE_FAINT_ATTACK, MOVE_FLY}
     },
 };
