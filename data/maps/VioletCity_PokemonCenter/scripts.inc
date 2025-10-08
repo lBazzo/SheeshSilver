@@ -83,7 +83,7 @@ VioletCity_PokemonCenter_EventScript_Man::
 	release
 	end
 
-VioletCity_PokemonCenter_Text_BookshelfMan::
+VioletCity_PokemonCenter_Text_BookshelfWoman::
 	lock
 	faceplayer
 	msgbox VioletCity_PokeCenter_Text_BooksAreGreat, MSGBOX_DEFAULT
