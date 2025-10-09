@@ -46,3 +46,11 @@ FarawayIsland_Entrance_EventScript_Sign::
 	msgbox FarawayIsland_Entrance_Text_Sign, MSGBOX_SIGN
 	end
 
+FarawayIsland_Entrance_Text_Sign:
+	.string "The writing is fading as if it\n"
+	.string "was written a long time ago…\p"
+	.string “'…ber, 6th day If any human…\n"
+	.string "sets foot here… again…et it\l"
+	.string "be a kindhearted pers… …ith\l"
+	.string "that hope, I depar…'$"
+
