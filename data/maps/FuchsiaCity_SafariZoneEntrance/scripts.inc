@@ -328,4 +328,3 @@ FuchsiaCity_SafariZoneEntrance_Text_MaxLevel:
 	.string "Hello {PLAYER}, thank you for\n"
 	.string "continuing to be a premium member\l"
 	.string "at the FUCHSIA SAFARI ZONE.$"
-
