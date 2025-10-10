@@ -1127,6 +1127,22 @@ void ItemUseOutOfBattle_EscapeRope(u8 taskId)
     }
 }
 
+// IN PROGRESS
+// //void ItemUseOutOfBattle_EscapeRope(u8 taskId)
+//{
+    //if (CanUseDigOrEscapeRopeOnCurMap() == TRUE)
+    //{
+        //if sItemUseOnFieldCB = ItemUseOnFieldCB_EscapeRope;
+        //SetUpItemUseOnFieldCallback(taskId);
+        //else if (Map==MtSilver_SummitDay) { warp to MtSilver_Outside} 
+        //else if (Map==MtSilver_SummitNight) { warp to MtSilver_Outside} 
+    //}
+    //else
+    //{
+        //DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
+    //}
+//}
+
 void ItemUseOutOfBattle_EvolutionStone(u8 taskId)
 {
     gItemUseCB = ItemUseCB_EvolutionStone;
