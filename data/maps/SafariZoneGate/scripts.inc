@@ -2,6 +2,7 @@ SafariZoneGate_MapScripts::
 	.byte 0
 
 SafariZoneGate_EventScript_Trigger::
+	setflag FLAG_VISITED_SAFARI_ZONE_GATE
 	setvar VAR_SAFARI_ZONE_GATE_STATE, 3
 	end
 
