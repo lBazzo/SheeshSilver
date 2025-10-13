@@ -974,6 +974,12 @@ u8 LoadGameSave(u8 saveType)
         }
         gSaveBlock1Ptr->versionId = 4;
     }
+    if (gSaveBlock1Ptr->versionId <5){
+        if(VarGet(VAR_SAFARI_ZONE_GATE_STATE)<3){
+            FlagClear(FLAG_VISITED_SAFARI_ZONE_GATE);
+        }
+        gSaveBlock1Ptr->versionId = 5;
+    }
     return status;
 }
 
