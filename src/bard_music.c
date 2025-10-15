@@ -7,6 +7,7 @@
 #include "data/bard_music/default_sound.h"
 #include "data/bard_music/length_table.h"
 
+//this is a comment
 static s16 CalcWordPitch(int pitchIdx, int songPos)
 {
     return sBardSoundPitchTables[pitchIdx][songPos];
